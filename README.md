@@ -41,56 +41,30 @@ Verified machine learning implementations completed on [TensorTonic](https://www
   <img src="https://www.tensortonic.com/api/badge/parth_saxena.svg" alt="TensorTonic Verified Solutions" width="100%" />
 </p>
 
-### ⚙️ Optimizers
-
 | Problem | Description | Link |
 |---|---|---|
-| AdaGrad Optimizer | Vectorized AdaGrad update in NumPy with accumulated squared gradients and adaptive per-parameter learning rates. | [Solve →](https://www.tensortonic.com/problems/adagrad-optimizer) |
-| Adam Optimizer Step | One vectorized Adam step with first/second moments, bias correction, and elementwise parameter updates. | [Solve →](https://www.tensortonic.com/problems/adam-optimizer) |
-| RMSProp Optimizer | One RMSProp update using exponential squared-gradient average and adaptive scaling. | [Solve →](https://www.tensortonic.com/problems/rmsprop-optimizer) |
-| Gradient Descent (1D Quadratic) | Optimize a one-dimensional quadratic with iterative gradient descent, returning the parameter trajectory. | [Solve →](https://www.tensortonic.com/problems/gradient-descent-quadratic) |
-
-### ⚡ Activation Functions
-
-| Problem | Description | Link |
-|---|---|---|
-| ReLU Activation | Element-wise ReLU — replace negatives with zero, preserve nonnegatives. | [Solve →](https://www.tensortonic.com/problems/relu-activation) |
-| Leaky ReLU (with α) | Element-wise Leaky ReLU with configurable negative slope. | [Solve →](https://www.tensortonic.com/problems/leaky-relu) |
-| ELU Activation | Element-wise ELU — retain positive inputs, exponentially transform negatives. | [Solve →](https://www.tensortonic.com/problems/elu-activation) |
-| SELU Activation | Element-wise SELU with scaled positive values and exponential negatives. | [Solve →](https://www.tensortonic.com/problems/selu-activation) |
-| Sigmoid (NumPy) | Vectorized sigmoid for scalars, lists, vectors, and matrices including extreme inputs. | [Solve →](https://www.tensortonic.com/problems/sigmoid-numpy) |
-| Tanh Activation | Element-wise hyperbolic tangent with outputs bounded between −1 and 1. | [Solve →](https://www.tensortonic.com/problems/tanh-activation) |
-| Swish Activation | Element-wise Swish — multiply each input by its sigmoid value. | [Solve →](https://www.tensortonic.com/problems/swish-activation) |
-
-### 📐 Distance & Similarity
-
-| Problem | Description | Link |
-|---|---|---|
-| Euclidean Distance | Square root of summed squared differences between equal-length NumPy vectors. | [Solve →](https://www.tensortonic.com/problems/euclidean-distance) |
-| Manhattan Distance | Sum of absolute coordinate differences between equal-length vectors. | [Solve →](https://www.tensortonic.com/problems/manhattan-distance) |
-| Cosine Similarity | Cosine similarity with dot products, Euclidean norms, and zero-vector handling. | [Solve →](https://www.tensortonic.com/problems/cosine-similarity) |
-
-### 📊 Metrics & Evaluation
-
-| Problem | Description | Link |
-|---|---|---|
-| Micro-F1 | Multiclass micro-F1 aggregating TP, FP, and FN across all labels. | [Solve →](https://www.tensortonic.com/problems/metrics-f1-micro) |
-| Precision & Recall at K | Recommendation precision and recall at K comparing ranked predictions with relevant items. | [Solve →](https://www.tensortonic.com/problems/precision-recall-at-k) |
-| Entropy for a Node | Decision-tree node entropy from class labels using empirical probabilities and log base 2. | [Solve →](https://www.tensortonic.com/problems/entropy-node) |
-
-### 🎲 Probability & Statistics
-
-| Problem | Description | Link |
-|---|---|---|
-| Bernoulli PMF & Moments | Bernoulli PMF, expected value, and variance for a valid success probability. | [Solve →](https://www.tensortonic.com/problems/bernoulli-pmf) |
-| Expected Value (Discrete) | Expected value of a discrete distribution from outcomes and normalized probabilities. | [Solve →](https://www.tensortonic.com/problems/expected-value-discrete) |
-
-### 🔢 Linear Algebra & Models
-
-| Problem | Description | Link |
-|---|---|---|
-| Matrix Transpose | NumPy matrix transpose without built-in helpers, preserving rectangular shapes. | [Solve →](https://www.tensortonic.com/problems/matrix-transpose) |
-| Logistic Regression Training | Binary logistic regression in NumPy using sigmoid, gradient descent, learned weights and bias. | [Solve →](https://www.tensortonic.com/problems/logistic-regression-training) |
+| AdaGrad Optimizer | Implement a vectorized AdaGrad update in NumPy with accumulated squared gradients and adaptive per-parameter learning rates. | https://www.tensortonic.com/problems/adagrad-optimizer |
+| Implement Adam Optimizer Step | Implement one vectorized Adam optimizer step in NumPy with first and second moments, bias correction, and elementwise parameter updates. | https://www.tensortonic.com/problems/adam-optimizer |
+| Bernoulli Probability Mass Function & Moments | Compute the Bernoulli probability mass function, expected value, and variance for a valid success probability. | https://www.tensortonic.com/problems/bernoulli-pmf |
+| Implement Cosine Similarity | Compute cosine similarity between NumPy vectors with dot products, Euclidean norms, and zero-vector handling. | https://www.tensortonic.com/problems/cosine-similarity |
+| ELU Activation | Apply the ELU activation element-wise, retaining positive inputs and exponentially transforming negative values. | https://www.tensortonic.com/problems/elu-activation |
+| Compute Entropy for a Node | Compute decision-tree node entropy from class labels using empirical class probabilities and base-two logarithms. | https://www.tensortonic.com/problems/entropy-node |
+| Implement Euclidean Distance | Compute Euclidean distance between equal-length NumPy vectors as the square root of summed squared differences. | https://www.tensortonic.com/problems/euclidean-distance |
+| Expected Value (Discrete Distribution) | Compute the expected value of a discrete distribution from matched outcomes and normalized probabilities. | https://www.tensortonic.com/problems/expected-value-discrete |
+| Implement Gradient Descent for a 1D Quadratic | Optimize a one-dimensional quadratic with iterative gradient descent and return the parameter trajectory. | https://www.tensortonic.com/problems/gradient-descent-quadratic |
+| Implement Leaky ReLU (with α) | Apply Leaky ReLU element-wise with a configurable negative slope while retaining positive inputs. | https://www.tensortonic.com/problems/leaky-relu |
+| Logistic Regression Training Loop | Train binary logistic regression in NumPy using sigmoid probabilities, gradient descent, and learned weight and bias parameters. | https://www.tensortonic.com/problems/logistic-regression-training |
+| Implement Manhattan Distance | Compute Manhattan distance between equal-length vectors by summing absolute coordinate differences. | https://www.tensortonic.com/problems/manhattan-distance |
+| Matrix Transpose | Implement matrix transpose in NumPy without built-in transpose helpers, preserving rectangular shapes and the original input. | https://www.tensortonic.com/problems/matrix-transpose |
+| Implement Micro-F1 | Compute multiclass micro-F1 by aggregating true positives, false positives, and false negatives across labels. | https://www.tensortonic.com/problems/metrics-f1-micro |
+| Precision and Recall at K | Compute recommendation precision and recall at K by comparing ranked predictions with relevant items. | https://www.tensortonic.com/problems/precision-recall-at-k |
+| Implement ReLU Activation | Apply the ReLU activation element-wise by replacing negative values with zero and preserving nonnegative inputs. | https://www.tensortonic.com/problems/relu-activation |
+| RMSProp Optimizer (Single Update Step) | Implement one RMSProp update in NumPy using an exponential squared-gradient average and adaptive scaling. | https://www.tensortonic.com/problems/rmsprop-optimizer |
+| Sample Variance & Standard Deviation | Compute sample variance and standard deviation with Bessel's correction from a numeric collection. | https://www.tensortonic.com/problems/sample-var-std |
+| SELU Activation | Apply SELU activation element-wise with scaled positive values and exponential negative values. | https://www.tensortonic.com/problems/selu-activation |
+| Implement Sigmoid in NumPy | Implement a vectorized sigmoid activation in NumPy for scalars, lists, vectors, and matrices, including large positive and negative inputs. | https://www.tensortonic.com/problems/sigmoid-numpy |
+| Implement Swish Activation | Apply the Swish activation element-wise by multiplying each input by its sigmoid value. | https://www.tensortonic.com/problems/swish-activation |
+| Implement Tanh Activation | Implement the hyperbolic tangent activation element-wise with outputs bounded between minus one and one. | https://www.tensortonic.com/problems/tanh-activation |
 
 View my verified ML profile: [TensorTonic profile](https://www.tensortonic.com/profile/parth_saxena)
 <!-- tensortonic:end -->
